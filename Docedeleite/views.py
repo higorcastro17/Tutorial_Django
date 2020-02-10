@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 
 
+
 def index(request):
     return HttpResponse("Hello i'm doce de leite.")
 
@@ -16,8 +17,5 @@ def aindatemdoce(request):
 def equipe(request):
     return HttpResponse("Andreza<br>Higor</br>Laysla")
     
-
-
-
 
 
